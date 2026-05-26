@@ -1,10 +1,10 @@
 // Static content for the landing page
 
 export const HERO_IMAGE =
-  "https://static.prod-images.emergentagent.com/jobs/b12f4d5f-3316-49e3-a3c8-603dff5fbdd6/images/659c29db6948ca25ae45c6349109543d4dc3f5def0a34ac97e9fabb6d381ee55.png";
+  "https://static.prod-images.emergentagent.com/jobs/b12f4d5f-3316-49e3-a3c8-603dff5fbdd6/images/b4d2cad61d4f4da6663ba6eb84409db57e5370d6bc1f4eed3e252ae7f22d8a4f.png";
 
 export const WORKSHOP_IMAGE =
-  "https://static.prod-images.emergentagent.com/jobs/b12f4d5f-3316-49e3-a3c8-603dff5fbdd6/images/7cafaa31ac8ebc785aec23b3bff50f8accf95f0c65e20353a2f743a8a4e531c7.png";
+  "https://static.prod-images.emergentagent.com/jobs/b12f4d5f-3316-49e3-a3c8-603dff5fbdd6/images/86d8c20eef4c022239ae2e5736fb7f7c50c997268a066aa70dca39228c49935c.png";
 
 export const SERVICES = [
   "Gates",
@@ -29,10 +29,10 @@ export const CATEGORIES = [
 export const PORTFOLIO = [
   {
     id: 1,
-    title: "Modern Black Gate",
+    title: "Modern Compound Swing Gate",
     category: "Gates",
     image:
-      "https://static.prod-images.emergentagent.com/jobs/b12f4d5f-3316-49e3-a3c8-603dff5fbdd6/images/4e89a7e6845853e9e604d6a40a07709fc54b4e73e7a3134b605b9500a8ba52fa.png",
+      "https://static.prod-images.emergentagent.com/jobs/b12f4d5f-3316-49e3-a3c8-603dff5fbdd6/images/ad8815a1c34b3fbf9f3110afaf876cdab6d8a4e115b451c5bd684bc5e1e89cb5.png",
     size: "lg",
   },
   {
@@ -40,31 +40,31 @@ export const PORTFOLIO = [
     title: "Spiral Steel Staircase",
     category: "Staircases",
     image:
-      "https://images.unsplash.com/photo-1526573059328-179b147e1b42?crop=entropy&cs=srgb&fm=jpg&q=85&w=1400",
+      "https://images.pexels.com/photos/5983190/pexels-photo-5983190.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     size: "md",
   },
   {
     id: 3,
-    title: "Architectural Steel Framework",
+    title: "Westlands Office Steel Facade",
     category: "Commercial",
     image:
-      "https://images.unsplash.com/photo-1509024368907-57294758cfc5?crop=entropy&cs=srgb&fm=jpg&q=85&w=1400",
+      "https://static.prod-images.emergentagent.com/jobs/b12f4d5f-3316-49e3-a3c8-603dff5fbdd6/images/3787222047dae133a23c98d0e97f06cd35972ac987683a415783801c13137715.png",
     size: "md",
   },
   {
     id: 4,
-    title: "Black Steel Window Frames",
+    title: "Double-Height Villa Windows",
     category: "Windows",
     image:
-      "https://images.unsplash.com/photo-1621831337122-428c07cda1bf?crop=entropy&cs=srgb&fm=jpg&q=85&w=1400",
+      "https://static.prod-images.emergentagent.com/jobs/b12f4d5f-3316-49e3-a3c8-603dff5fbdd6/images/920b2953a950900e4e63bc143b2ceae033a7865f529f172860280b2d9f9aa62f.png",
     size: "md",
   },
   {
     id: 5,
-    title: "Cantilever Balcony Railing",
+    title: "Cantilever Apartment Balcony",
     category: "Balconies",
     image:
-      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?crop=entropy&cs=srgb&fm=jpg&q=85&w=1400",
+      "https://static.prod-images.emergentagent.com/jobs/b12f4d5f-3316-49e3-a3c8-603dff5fbdd6/images/044e3f54b7b8f8b3b3140f0466057c08996f8eb671f9cccc477366ba21f59832.png",
     size: "md",
   },
   {
@@ -72,23 +72,23 @@ export const PORTFOLIO = [
     title: "Estate Sliding Gate",
     category: "Gates",
     image:
-      "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?crop=entropy&cs=srgb&fm=jpg&q=85&w=1400",
+      "https://static.prod-images.emergentagent.com/jobs/b12f4d5f-3316-49e3-a3c8-603dff5fbdd6/images/0bba3e835bec87be205b7f441604e7df8c73a82d52163d6aa14ee1a8ccbea190.png",
     size: "md",
   },
   {
     id: 7,
-    title: "Glass & Steel Staircase",
+    title: "Floating Glass & Steel Staircase",
     category: "Staircases",
     image:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?crop=entropy&cs=srgb&fm=jpg&q=85&w=1400",
+      "https://images.unsplash.com/photo-1580911498851-4999ad5327b6?crop=entropy&cs=srgb&fm=jpg&q=85&w=1400",
     size: "lg",
   },
   {
     id: 8,
-    title: "Commercial Storefront",
+    title: "Nairobi Commercial Storefront",
     category: "Commercial",
     image:
-      "https://images.unsplash.com/photo-1486325212027-8081e485255e?crop=entropy&cs=srgb&fm=jpg&q=85&w=1400",
+      "https://static.prod-images.emergentagent.com/jobs/b12f4d5f-3316-49e3-a3c8-603dff5fbdd6/images/0dbeb6029f94c4fa6a4d8f8581348e74c55ca4ecc9b5c20d3068368f319afa11.png",
     size: "md",
   },
 ];
