@@ -36,3 +36,9 @@ yarn-error.log*
 *token.json*
 *credentials.json*
 *.key
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
