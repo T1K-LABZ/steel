@@ -1,9 +1,6 @@
 // craco.config.js
 const path = require("path");
 
-const paths = require('react-scripts/config/paths');
-paths.appBuild = path.resolve(__dirname, 'dist');
-
 let webpackConfig = {
   eslint: {
     configure: {
