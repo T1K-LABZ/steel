@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="md:col-span-5">
             <div className="flex items-center gap-2.5">
               <span className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-[#C58B2A] text-white font-heading font-bold text-sm tracking-tight">
-                NSW
+                SSS
               </span>
               <span className="font-heading font-bold text-lg tracking-tight">
                 {SITE.brand}

@@ -147,7 +147,7 @@ export default function Contact() {
               className="mt-6 rounded-2xl overflow-hidden border border-[#B0B7C3]/30 h-[280px]"
             >
               <iframe
-                title="Nairobi Steel Works location"
+                title="Shiloki Steel Solution location"
                 src={SITE.mapsEmbed}
                 width="100%"
                 height="100%"

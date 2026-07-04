@@ -37,7 +37,7 @@ export default function Navbar() {
           className="flex items-center gap-2.5 group"
         >
           <span className="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-[#2B2B2B] text-[#C58B2A] font-heading font-bold text-sm tracking-tight">
-            NSW
+            SSS
           </span>
           <span className="font-heading font-bold text-[#2B2B2B] text-base md:text-lg tracking-tight hidden sm:inline">
             {SITE.brand}

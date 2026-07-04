@@ -59,7 +59,7 @@ export default function Portfolio() {
         </div>
 
         {/* Bento grid */}
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-12 gap-5 md:gap-6 auto-rows-[260px] md:auto-rows-[300px]">
+        <div className="portfolio-grid mt-12 grid grid-cols-1 md:grid-cols-12 gap-5 md:gap-6 auto-rows-[260px] md:auto-rows-[300px]">
           {items.map((p, i) => {
             // Asymmetric layout
             const span =
@@ -77,8 +77,11 @@ export default function Portfolio() {
               <article
                 key={p.id}
                 data-testid={`portfolio-item-${p.id}`}
-                className={`group relative overflow-hidden rounded-2xl bg-[#2B2B2B] reveal ${span}`}
-                style={{ animationDelay: `${(i % 6) * 60}ms` }}
+                className={`portfolio-card group relative overflow-hidden rounded-2xl bg-[#2B2B2B] reveal ${span}`}
+                style={{
+                  animationDelay: `${(i % 6) * 60}ms`,
+                  "--stack-index": i,
+                }}
               >
                 <img
                   src={p.image}

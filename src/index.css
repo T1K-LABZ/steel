@@ -113,3 +113,26 @@ body {
 /* Hide scrollbar for horizontal category bar */
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+@media (max-width: 767px) {
+    .portfolio-grid {
+        display: block;
+        padding-bottom: 24vh;
+    }
+
+    .portfolio-card {
+        position: sticky;
+        top: calc(76px + (var(--stack-index) * 4px));
+        height: min(72vh, 520px);
+        min-height: 360px;
+        margin-bottom: 24px;
+        transform: scale(calc(1 - (var(--stack-index) * 0.006)));
+        transform-origin: top center;
+        z-index: calc(10 + var(--stack-index));
+        box-shadow: 0 18px 46px rgba(31, 31, 31, 0.18);
+    }
+
+    .portfolio-card:last-child {
+        margin-bottom: 0;
+    }
+}

@@ -1,10 +1,10 @@
 // Static content for the landing page
 
 export const HERO_IMAGE =
-  "https://static.prod-images.emergentagent.com/jobs/b12f4d5f-3316-49e3-a3c8-603dff5fbdd6/images/b4d2cad61d4f4da6663ba6eb84409db57e5370d6bc1f4eed3e252ae7f22d8a4f.png";
+  "/images/hero-local.jpeg";
 
 export const WORKSHOP_IMAGE =
-  "https://static.prod-images.emergentagent.com/jobs/b12f4d5f-3316-49e3-a3c8-603dff5fbdd6/images/86d8c20eef4c022239ae2e5736fb7f7c50c997268a066aa70dca39228c49935c.png";
+  "/images/workshop.png";
 
 export const SERVICES = [
   "Gates",
@@ -19,77 +19,75 @@ export const SERVICES = [
 
 export const CATEGORIES = [
   "All",
-  "Gates",
-  "Balconies",
-  "Staircases",
-  "Windows",
-  "Commercial",
 ];
 
 export const PORTFOLIO = [
   {
-    id: 1,
-    title: "Modern Compound Swing Gate",
+    id: "gate-1",
+    title: "Sliding Compound Gate",
     category: "Gates",
-    image:
-      "https://static.prod-images.emergentagent.com/jobs/b12f4d5f-3316-49e3-a3c8-603dff5fbdd6/images/ad8815a1c34b3fbf9f3110afaf876cdab6d8a4e115b451c5bd684bc5e1e89cb5.png",
+    image: "/images/portfolio-gate-01.jpeg",
     size: "lg",
   },
   {
-    id: 2,
-    title: "Spiral Steel Staircase",
-    category: "Staircases",
-    image:
-      "https://images.pexels.com/photos/5983190/pexels-photo-5983190.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    size: "md",
+    id: "gate-2",
+    title: "Decorative Swing Gate",
+    category: "Gates",
+    image: "/images/portfolio-gate-02.jpeg",
   },
   {
-    id: 3,
-    title: "Westlands Office Steel Facade",
-    category: "Commercial",
-    image:
-      "https://static.prod-images.emergentagent.com/jobs/b12f4d5f-3316-49e3-a3c8-603dff5fbdd6/images/3787222047dae133a23c98d0e97f06cd35972ac987683a415783801c13137715.png",
-    size: "md",
+    id: "gate-3",
+    title: "Arched Security Gate",
+    category: "Gates",
+    image: "/images/portfolio-gate-03.jpeg",
   },
   {
-    id: 4,
-    title: "Double-Height Villa Windows",
+    id: "gate-4",
+    title: "Modern Slatted Gate",
+    category: "Gates",
+    image: "/images/portfolio-gate-04.jpeg",
+  },
+  {
+    id: "gate-5",
+    title: "Custom Estate Gate",
+    category: "Gates",
+    image: "/images/portfolio-gate-05.jpeg",
+  },
+  {
+    id: "gate-6",
+    title: "Steel Driveway Gate",
+    category: "Gates",
+    image: "/images/portfolio-gate-06.jpeg",
+  },
+  {
+    id: "door-1",
+    title: "Steel Security Door",
+    category: "Doors",
+    image: "/images/portfolio-door-01.jpeg",
+  },
+  {
+    id: "door-2",
+    title: "Decorative Metal Door",
+    category: "Doors",
+    image: "/images/portfolio-door-02.jpeg",
+  },
+  {
+    id: "door-3",
+    title: "Single Panel Door",
+    category: "Doors",
+    image: "/images/portfolio-door-03.jpeg",
+  },
+  {
+    id: "door-6",
+    title: "Double Steel Door",
+    category: "Doors",
+    image: "/images/portfolio-door-06.jpeg",
+  },
+  {
+    id: "window-2",
+    title: "Steel Window Grille",
     category: "Windows",
-    image:
-      "https://static.prod-images.emergentagent.com/jobs/b12f4d5f-3316-49e3-a3c8-603dff5fbdd6/images/920b2953a950900e4e63bc143b2ceae033a7865f529f172860280b2d9f9aa62f.png",
-    size: "md",
-  },
-  {
-    id: 5,
-    title: "Cantilever Apartment Balcony",
-    category: "Balconies",
-    image:
-      "https://static.prod-images.emergentagent.com/jobs/b12f4d5f-3316-49e3-a3c8-603dff5fbdd6/images/044e3f54b7b8f8b3b3140f0466057c08996f8eb671f9cccc477366ba21f59832.png",
-    size: "md",
-  },
-  {
-    id: 6,
-    title: "Estate Sliding Gate",
-    category: "Gates",
-    image:
-      "https://static.prod-images.emergentagent.com/jobs/b12f4d5f-3316-49e3-a3c8-603dff5fbdd6/images/0bba3e835bec87be205b7f441604e7df8c73a82d52163d6aa14ee1a8ccbea190.png",
-    size: "md",
-  },
-  {
-    id: 7,
-    title: "Floating Glass & Steel Staircase",
-    category: "Staircases",
-    image:
-      "https://images.unsplash.com/photo-1580911498851-4999ad5327b6?crop=entropy&cs=srgb&fm=jpg&q=85&w=1400",
-    size: "lg",
-  },
-  {
-    id: 8,
-    title: "Nairobi Commercial Storefront",
-    category: "Commercial",
-    image:
-      "https://static.prod-images.emergentagent.com/jobs/b12f4d5f-3316-49e3-a3c8-603dff5fbdd6/images/0dbeb6029f94c4fa6a4d8f8581348e74c55ca4ecc9b5c20d3068368f319afa11.png",
-    size: "md",
+    image: "/images/portfolio-window-02.jpeg",
   },
 ];
 
@@ -136,7 +134,7 @@ export const TESTIMONIALS = [
   {
     name: "Eng. Brian Otieno",
     role: "Project Manager, Westlands",
-    body: "We've used Nairobi Steel Works on three commercial projects. Quality, lead times and communication are best-in-class in Nairobi.",
+    body: "We've used Shiloki Steel Solution on three commercial projects. Quality, lead times and communication are best-in-class in Nairobi.",
     rating: 5,
   },
   {
