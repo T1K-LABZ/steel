@@ -142,21 +142,24 @@ export default function Contact() {
             </div>
 
             {/* Map */}
-            <div
+            <a
+              href={SITE.mapsLink}
+              target="_blank"
+              rel="noopener noreferrer"
               data-testid="contact-map"
-              className="mt-6 rounded-2xl overflow-hidden border border-[#B0B7C3]/30 h-[280px]"
+              className="mt-6 rounded-2xl overflow-hidden border border-[#B0B7C3]/30 h-[280px] block hover:border-[#C58B2A]/60 transition-colors"
             >
               <iframe
                 title="Shiloki Steel Solution location"
                 src={SITE.mapsEmbed}
                 width="100%"
                 height="100%"
-                style={{ border: 0 }}
+                style={{ border: 0, pointerEvents: "none" }}
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
-            </div>
+            </a>
           </aside>
 
           {/* Form */}
