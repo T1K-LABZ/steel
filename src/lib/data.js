@@ -115,7 +115,7 @@ export const FEATURES = [
   {
     icon: "map-pin",
     title: "Nairobi-Based",
-    body: "Workshop in Industrial Area with site service across Nairobi, Kiambu, Machakos and beyond.",
+    body: "Workshop in Ruiru with site service across Juja, Nairobi, Kiambu, Thika and beyond.",
   },
   {
     icon: "wrench",

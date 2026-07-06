@@ -28,7 +28,7 @@ export default function Portfolio() {
             </h2>
             <p className="mt-5 text-[#1F1F1F]/70 text-base md:text-lg leading-relaxed">
               Custom gates, balconies, staircases and commercial installations
-              delivered across Nairobi.
+              delivered across Ruiru, Juja & Nairobi.
             </p>
           </div>
 

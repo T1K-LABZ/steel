@@ -7,7 +7,7 @@ export const SITE = {
   phoneRaw: "+254721825911",
   whatsappRaw: "254721825911",
   email: "Kiloshk016@gmail.com",
-  address: "Industrial Area, Enterprise Road, Nairobi, Kenya",
+  address: "Ruiru, Kiambu County, Kenya",
   hours: "Mon – Sat · 7:30 – 18:00",
   mapsEmbed:
     "https://www.google.com/maps?q=-1.157423,36.934788&z=15&output=embed",

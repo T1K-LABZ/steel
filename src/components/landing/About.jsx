@@ -26,7 +26,7 @@ export default function About() {
                   12+
                 </div>
                 <div className="text-white/75 text-sm mt-1">
-                  Years crafting steel across Nairobi
+                  Years crafting steel in Ruiru & Juja
                 </div>
               </div>
             </div>
@@ -42,7 +42,7 @@ export default function About() {
               <span className="text-[#C58B2A]">Designed</span> to be admired.
             </h2>
             <p className="mt-6 text-[#1F1F1F]/75 text-base md:text-lg leading-relaxed">
-              We are a Nairobi-based steel fabrication studio specialising in
+              We are a Ruiru-based steel fabrication studio specialising in
               modern, architectural metalwork. From bold entrance gates and
               cantilever balconies to delicate stainless steel railings — every
               piece we build is engineered for Kenyan conditions and finished
@@ -50,8 +50,8 @@ export default function About() {
             </p>
             <p className="mt-4 text-[#1F1F1F]/75 text-base md:text-lg leading-relaxed">
               We work with homeowners, architects, developers and businesses
-              across Nairobi and the surrounding counties. Our workshop in
-              Industrial Area is open for site visits by appointment.
+              across Ruiru, Juja, Nairobi and the surrounding counties. Our workshop in
+              Ruiru is open for site visits by appointment.
             </p>
 
             <ul className="mt-8 grid grid-cols-2 gap-x-4 gap-y-3">

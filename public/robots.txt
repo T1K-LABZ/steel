@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shilokisteel.co.ke/sitemap.xml

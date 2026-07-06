@@ -21,7 +21,7 @@ export default function Footer() {
             </div>
             <p className="mt-5 text-white/60 text-sm md:text-base leading-relaxed max-w-md">
               Premium steel fabrication for homes, estates and businesses
-              across Nairobi. Bespoke design, engineered durability, finished
+              across Ruiru, Juja & Nairobi. Bespoke design, engineered durability, finished
               with care.
             </p>
             <div className="mt-6 flex items-center gap-3">

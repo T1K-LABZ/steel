@@ -13,7 +13,7 @@ export default function Hero() {
           {/* Background image */}
           <img
             src={HERO_IMAGE}
-            alt="Modern luxury home with premium black steel balconies and windows in Nairobi"
+            alt="Modern luxury home with premium black steel balconies and windows in Ruiru, Kenya"
             className="absolute inset-0 w-full h-full object-cover"
             loading="eager"
           />
@@ -26,7 +26,7 @@ export default function Hero() {
             <div className="reveal max-w-2xl">
               <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-white/25 bg-white/5 backdrop-blur-sm text-white/90 text-xs md:text-sm font-medium">
                 <ShieldCheck size={14} className="text-[#C58B2A]" />
-                Trusted Nairobi Fabricators · Est. 2013
+                Trusted Ruiru & Juja Fabricators · Est. 2013
               </span>
             </div>
 
@@ -35,7 +35,7 @@ export default function Hero() {
                 Premium Steel<br />
                 Fabrication & Modern{" "}
                 <span className="text-[#C58B2A]">Metal Works</span><br />
-                in Nairobi.
+                in Ruiru & Juja.
               </h1>
               <p className="mt-6 md:mt-8 text-white/85 text-base md:text-lg max-w-xl leading-relaxed">
                 Bespoke gates, balconies, staircases and stainless steel works
@@ -70,7 +70,7 @@ export default function Hero() {
                 {[
                   ["12+", "Years of craft"],
                   ["480+", "Projects delivered"],
-                  ["Nairobi", "Industrial Area"],
+                  ["Ruiru", "Kiambu County"],
                   ["5★", "Client rating"],
                 ].map(([v, l]) => (
                   <div
