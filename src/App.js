@@ -1,17 +1,15 @@
 import "@/App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Landing from "./pages/Landing";
-import { Toaster } from "@/components/ui/sonner";
+import MaintenancePage from "./pages/MaintenancePage";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Landing />} />
+          <Route path="*" element={<MaintenancePage />} />
         </Routes>
       </BrowserRouter>
-      <Toaster position="top-right" richColors />
     </div>
   );
 }
